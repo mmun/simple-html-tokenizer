@@ -1,0 +1,13 @@
+{
+  "name": "simple-html-tokenizer",
+  "devDependencies": {
+    "broccoli": "~0.6.0",
+    "broccoli-concat": "0.0.3",
+    "broccoli-dist-es6-module": "~0.1.8",
+    "broccoli-env": "0.0.1",
+    "broccoli-es6-module-filter": "~0.1.7",
+    "broccoli-merge-trees": "~0.1.0",
+    "broccoli-static-compiler": "~0.1.2",
+    "grunt": "~0.4.4"
+  }
+}

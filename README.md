@@ -64,3 +64,29 @@ HTML5Tokenizer.configure('generateAttributes', function(attributes) {
   // attributes part to be inserted into the tag.
 });
 ```
+
+# Running the build and tests
+
+Before running the build or tests make sure you have bower installed.
+You can install bower by running `npm install -g bower`.
+
+Next install the dependencies:
+
+```bash
+npm install
+bower install
+```
+
+To run the tests run:
+
+```bash
+broccoli serve
+```
+
+and visit <http://localhost:4200>.
+
+To run a build run:
+
+```bash
+BROCCOLI_ENV=production broccoli build dist
+```
